@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 22px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .task-manager, .focus-timer, .bookmark-organizer {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  li button {
+    width: auto;
+    margin-left: 10px;
+    background-color: #dc3545;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
